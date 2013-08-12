@@ -1,0 +1,15 @@
+{
+    "name": "Actualidad Tecnológica PabloYglesias",
+    "description": "Mantente al día de la actualidad tecnológica y tutoriales de forma cómoda con la extensión de PabloYglesias", 
+    "browser_action": {
+        "default_icon": "icon.png", 
+        "default_title": "PabloYglesias Feed", 
+        "default_popup": "main.html"
+    }, 
+    "manifest_version": 2,
+    "update_url": "http://clients2.google.com/service/update2/crx",
+    "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
+    "version": "0.5"
+}
+
+
